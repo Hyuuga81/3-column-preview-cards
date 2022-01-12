@@ -11,7 +11,123 @@ html {
 }
 
 body {
+    margin: 50px 0;
+    width: 100%;
     font-size: 1em;
     font-family: 'Big Shoulders Display', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.container {
+    width: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.packaging {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.sedans, .suvs, .luxury {
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+h1 {
+    width: 100%;
+    color: #ffffff;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+p {
+    color: #f2f2f2;
+    font-size: 1em;
+    line-height: 24px;
     font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+img {
+    padding-bottom: 40px;
+}
+
+button {
+    padding: 16px 32px;
+    border-radius: 25px;
+}
+
+
+/***************** SEDANS ***********************/
+.sedans {
+    background-color: #e38826;
+    color: #d89547;
+}
+
+.sedans-button {
+    font-weight: 600;
+    background-color: #f2f2f2;
+    padding: 16px 32px;
+    color: #e38826;
+    cursor: pointer;
+}
+
+.sedans-button:hover {
+    background-color: #e38826;
+    color: #f2f2f2;
+}
+
+
+/******************* SUVS ***********************/
+
+.suvs {
+    background-color: #006970;
+}
+
+.suvs-button {
+    font-weight: 600;
+    background-color: #f2f2f2;
+    padding: 16px 32px;
+    color: #006970;
+    cursor: pointer;
+}
+
+.suvs-button:hover {
+    background-color: #006970;
+    color: #f2f2f2;
+}
+
+/***************** LUXURY ***********************/
+
+.luxury {
+    background-color: #004241;
+}
+
+.luxury-button {
+    font-weight: 600;
+    background-color: #f2f2f2;
+    padding: 16px 32px;
+    color: #004241;
+    cursor: pointer;
+}
+
+.luxury-button:hover {
+    background-color: #004241;
+    color: #f2f2f2;
 }
