@@ -22,12 +22,23 @@ body {
     flex-flow: row wrap;
 }
 
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    
+}
+
 .container {
     width: 88%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .packaging {
@@ -76,6 +87,11 @@ button {
     border-radius: 25px;
 }
 
+anchor {
+    padding: 16px 32px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+}
 
 /***************** SEDANS ***********************/
 .sedans {
@@ -83,15 +99,26 @@ button {
     color: #d89547;
 }
 
+/*
 .sedans-button {
     font-weight: 600;
     background-color: #f2f2f2;
     padding: 16px 32px;
     color: #e38826;
     cursor: pointer;
+}*/
+
+.sedans anchor {
+    font-size: 1em;
+    font-weight: 600;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #f2f2f2;
+    padding: 16px 32px;
+    color: #e38826;
+    cursor: pointer;
 }
 
-.sedans-button:hover {
+.sedans anchor:hover {
     background-color: #e38826;
     color: #f2f2f2;
 }
@@ -103,15 +130,17 @@ button {
     background-color: #006970;
 }
 
-.suvs-button {
+/*.suvs-button*/
+.suvs anchor {
     font-weight: 600;
+    font-family: 'Lexend Deca', sans-serif;
     background-color: #f2f2f2;
     padding: 16px 32px;
     color: #006970;
     cursor: pointer;
 }
 
-.suvs-button:hover {
+.suvs anchor:hover {
     background-color: #006970;
     color: #f2f2f2;
 }
@@ -122,15 +151,16 @@ button {
     background-color: #004241;
 }
 
-.luxury-button {
+.luxury anchor {
     font-weight: 600;
+    font-family: 'Lexend Deca', sans-serif;
     background-color: #f2f2f2;
     padding: 16px 32px;
     color: #004241;
     cursor: pointer;
 }
 
-.luxury-button:hover {
+.luxury anchor:hover {
     background-color: #004241;
     color: #f2f2f2;
 }
