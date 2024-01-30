@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    width: 100%;
+    font-size: 1em;
+    font-family: "Lexend Deca", sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+main {
+    width: 87.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 20px 0 20px 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 48px 0 60px 0;
+}
+
+section .container {
+    width: 70.6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+/* GENERAL STYLES */
+img {
+    margin-bottom: 35px;
+}
+
+h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: bold;
+    font-size: 2.67em;
+    text-transform: uppercase;
+}
+
+p {
+    font-weight: normal;
+    padding: 25px 0 37px 0;
+    line-height: 25px;
+    opacity: 60%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1em;
+    padding: 12px 31.5px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+/* SEDANS SECTION */
+.sedans {
+    background: #E28625;
+}
+
+.sedans a {
+    color: #E28625;
+}
+
+/* SUVs SECTION */
+.suvs {
+    background: #006971;
+}
+
+.suvs a {
+    color: #006971;
+}
+
+/* LUXURY SECTION */
+.luxury {
+    background: #004140;
+}
+
+.luxury a {
+    color: #004140;
+}
+
+
+/* DESKTOP STYLES  */
+@media (min-width: 1200px) {
+    body {
+        height: 100vh;
+    }
+
+    main {
+        width: 64%;
+        max-width: 920px;
+        align-items: stretch;
+    }
+
+    section {
+        width: 33.3%;
+    }
+
+    p {
+        padding: 25px 0 95px 0;
+    }
+
+    /* MOUSEOVER STYLES */
+    a:hover {
+        background: transparent;
+        color: #fff;
+        border: 2px solid #fff;
+    }
+}
